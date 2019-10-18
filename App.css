@@ -83,3 +83,50 @@
 .navbar-item:hover {
     color: #B22222;
 }
+
+
+
+
+
+.btn {
+  background-color: #ffffff;   /* Couleur de fond */
+  border-color: #ffffff;   /* Couleur de la bordure  */
+  padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+  width: 40%;   /* Permet d'ajuster la largeur du bouton à 100% */
+  box-sizing: border-box;   /* Important */
+  font-family: PT sans;   /* Police du texte */
+  font-size: 13px;   /* Taille de la police du texte */
+  font-weight: bold;   /* Graisse du texte : normal = normal ; bold = gras */
+  letter-spacing: 2px;   /* Espacement des caractères */
+  margin: 10px 0 0 0;   /* Espace autour du bouton : haut droite bas gauche  */
+  text-transform: uppercase;   /* Transforme le texte en majuscules */
+  color: #000000;   /* Couleur du texte */
+  cursor: pointer;
+  background-image:url(./bouton.png);
+}
+
+.txt {
+  width: 200px;
+  height: 30px;
+  padding: 2px 25px 2px 5px;
+  border-width: 0;
+  color: #969696;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+}
+
+.policy {
+  color: #666;
+}
+
+.section {
+background-color: #B22222;
+border: 1px black solid;
+display: table;
+margin:auto;
+text-align: center;
+width: 25%;
+  padding: 5px;
+  height: 500px;
+}
