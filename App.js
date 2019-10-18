@@ -21,11 +21,6 @@ class App extends Component {
   render() {
     return (
       <div className="body">
-        <Head>
-        </Head>
-        <Log formTitle="LOG IN" addArticles={this.addArticles}/>
-        <Foot>
-        </Foot>
       </div>
     )
   }
