@@ -37,3 +37,49 @@
 .navbar-item:hover {
   color: #B22222;
 }
+
+
+
+
+.footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+.top {
+    padding: 0px;
+    margin: 0px;
+    background: #9ACD32;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar-brand {
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    background-image:url(./icon.png);
+}
+
+.navbar-item {
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: right;
+}
+
+.navbar-item:hover {
+    color: #B22222;
+}
