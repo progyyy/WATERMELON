@@ -23,6 +23,8 @@ class App extends Component {
       <div className="body">
         <Head>
         </Head>
+        <Foot>
+        </Foot>
       </div>
     )
   }
